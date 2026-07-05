@@ -1,0 +1,12 @@
+nohup python  main.py  \
+    --data_set image_folder \
+    --data_path /root/autodl-tmp/Test/ships_gammatone_dataset_split10/train \
+    --eval_data_path /root/autodl-tmp/Test/ships_gammatone_dataset_split10/val \
+    --nb_classes 5 \
+    --input_size 224 \
+    --batch_size 32 \
+    --epochs 200 \
+    --model convnext_tiny \
+    --lr 1e-3 \
+    --output_dir ./outputs \
+    --imagenet_default_mean_and_std False > train.log 2>&1 &
