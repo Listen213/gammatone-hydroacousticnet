@@ -183,7 +183,7 @@ Pull requests and issue discussions are welcome. Please open an issue to discuss
 ---
 
 ## 📧 Contact Information
-- Qianxing Wei (First Author): 3526016482@qq.com
+- Qianxing Wei (First Author): 15736521015@163.com
 - Chaochao Sun (Corresponding Author): pop-scc@163.com
 
 All authors: Qianxing Wei, Chaochao Sun, Yuan Peng
