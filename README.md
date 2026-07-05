@@ -34,7 +34,6 @@ All scripts strictly fix random seed = 42 to eliminate random fluctuation. The 7
 ├── test.py                   # Test script, output accuracy, F1-score, confusion matrix
 ├── utils.py                  # Logging, metric calculation, checkpoint saving tools
 ├── run_with_submitit.py      # Script for cluster GPU training (SLURM)
-├── test_results.json         # Sample output of quantitative evaluation metrics
 └── models/
     ├── convnext.py           # Customized HydroacousticNet backbone based on ConvNeXt
     └── convnext_isotropic.py # Isotropic ConvNeXt variant for ablation comparison
